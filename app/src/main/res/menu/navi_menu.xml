@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/history"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:title="수강신청내역"
+            />
+        <item
+            android:id="@+id/timetable"
+            android:icon="@drawable/timetable"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:title="수업 시간표"
+            />
+
+        <item
+            android:id="@+id/book_calender"
+            android:icon="@drawable/book"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:title="강의실 예약"
+            />
+
+        <item
+            android:id="@+id/reservation_list"
+            android:icon="@drawable/list"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:title="예약 목록"
+            />
+
+        <item
+            android:id="@+id/lab_absence"
+            android:icon="@drawable/absence"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:title="교수 재실 여부"
+            />
+
+        <item
+            android:id="@+id/student_menual"
+            android:icon="@drawable/student"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:title="학생 메뉴얼 "
+            />
+
+        <item
+            android:id="@+id/professor_menual"
+            android:icon="@drawable/professor"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:title="교수 메뉴얼 "
+            />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:title="로그아웃"
+            />
+
+    </group>
+</menu>

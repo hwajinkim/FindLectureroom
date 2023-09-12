@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.FLR.MainActivity"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.5"
+        android:background="#F3F3F3"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FLR"
+            android:textColor="#011063"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find lectureroom"
+            android:textColor="#011063"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:text="아이디와 비밀번호를 입력한 후 로그인하시오."
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView_main_search"
+                    />
+
+                <EditText
+                    android:layout_margin="2dp"
+                    android:hint = "ID"
+                    android:textColorHint="#A9A9A9"
+                    android:textColor="#000000"
+                    android:inputType="text"
+                    android:id="@+id/et_Id"
+                    android:textCursorDrawable="@null"
+                    android:layout_width="300dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:theme="@style/EditTheme"/>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+
+                    app:passwordToggleEnabled="true">
+                    <EditText
+                        android:layout_margin="2dp"
+                        android:hint = "PassWord"
+                        android:textColorHint="#A9A9A9"
+                        android:textColor="#000000"
+                        android:inputType="textPassword"
+                        android:id="@+id/et_Password"
+                        android:textCursorDrawable="@null"
+                        android:layout_width="300dp"
+                        android:layout_weight="0.7"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:theme="@style/EditTheme"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp">
+
+                    <Button
+                        android:id="@+id/button_main_search"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="0.3"
+                        android:backgroundTint="#011063"
+                        android:text="로그인"
+                        app:iconTint="#FFFFFF"
+                        android:textColor="#ffffff"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <!--- 디버깅 용 -->
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

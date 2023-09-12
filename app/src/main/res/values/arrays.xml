@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="room_num">
+        <item>8501</item>
+        <item>8513</item>
+        <item>8517</item>
+        <item>8521</item>
+        <item>8522</item>
+        <item>8527</item>
+        <item>8528</item>
+        <item>9501</item>
+        <item>9503</item>
+        <item>9506</item>
+    </string-array>
+    <string-array name="rental_time">
+        <item>08:00~10:00</item>
+        <item>10:00~12:00</item>
+        <item>12:00~14:00</item>
+        <item>14:00~16:00</item>
+        <item>16:00~18:00</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.FLR.LabAbsence">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="교수님의 현재 상태를 선택하세요."
+        android:gravity="center_horizontal"
+        android:textColor="#011063"
+        android:textSize="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="75dp"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp">
+
+        <RadioButton
+            android:id="@+id/radio_exist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="재실" />
+
+        <RadioButton
+            android:id="@+id/radio_meeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회의 중 " />
+
+        <RadioButton
+            android:id="@+id/radio_during_a_lecture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강의 중" />
+
+        <RadioButton
+            android:id="@+id/radio_consulting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상담 중" />
+
+        <RadioButton
+            android:id="@+id/radio_going_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="외출 중" />
+
+        <RadioButton
+            android:id="@+id/radio_eating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="식사 중" />
+
+        <RadioButton
+            android:id="@+id/radio_business_trip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="출장 " />
+
+        <RadioButton
+            android:id="@+id/radio_leave_work"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="퇴근 " />
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/choosebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택"/>
+
+
+</LinearLayout>
